@@ -15,9 +15,7 @@ Solutaion:
                else if(A[i] > j) we cannot include this item so value still same in dp[i-1][j]
                else  dp[i][j] = dp[i-1][j] || dp[i-1][j - A[i]] // include item or exclute item 
                
-3. if dp[n][sum/2] is false  // last row
-   loop back to find closest sum 
-   return (sum - 2*closestSum) // same as ( (sum - closestSum) - closestSum)
+3. if dp[n][sum/2] is false loop back to find closest sum and return (sum - 2*closestSum) // same as ( (sum - closestSum) - closestSum)
 
 
 
