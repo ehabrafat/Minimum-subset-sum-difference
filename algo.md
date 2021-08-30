@@ -1,4 +1,4 @@
-# GOAL:- Divide array into 2 subsets such that difference of their sum is minimized
+# Divide array into 2 subsets such that difference of their sum is minimized
 Example: 
  A = {1,6,11,5}
 Solutaion:
